@@ -26,3 +26,9 @@ The design follows a **mobile‑first** approach, using Flexbox/Grid and media q
 ├── style.css # Stylesheet (Flexbox/Grid + media queries)
 ├── avatar.jpg # Optional profile photo
 └── README.md # You are here
+
+##Screenshots
+
+![Screenshot (112)](https://github.com/user-attachments/assets/692362e0-e711-4791-bd04-79b567573cc4)
+![Screenshot (111)](https://github.com/user-attachments/assets/ee83dea6-c2cf-41e7-bdb9-f99b32ffd61f)
+

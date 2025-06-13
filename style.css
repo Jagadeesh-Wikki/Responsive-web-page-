@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #0da170;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+header .tagline {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+header a {
+  color: #c71111;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #4fda6d;
+  margin-bottom: 1rem;
+  padding-bottom: 0.25rem;
+  color: #9b57c9;
+}
+
+.project h3 {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.project ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+
+.skills ul,
+.certifications ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+
+footer {
+  background: #dbf2ff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #008a50;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .container > section {
+    flex: 1 1 45%;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+}
